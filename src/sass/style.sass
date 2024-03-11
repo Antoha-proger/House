@@ -93,6 +93,7 @@ body
         display: flex
         flex-direction: row
         justify-content: space-between
+        margin-bottom: 30px
     &__country-btn
         background: #D4E8D9
         color: #2C2D35
@@ -110,6 +111,11 @@ body
         &:hover
             color: #F4F6F5
             background-color: #376B44
+    &__main-part
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-template-rows: repeat(2, 1fr)
+        gap: 30px
     &__cards
         background-color: #E1EDE6
         width: 350px

@@ -109,6 +109,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 .catalog-section__country-btn {
   background: #D4E8D9;
@@ -127,6 +128,12 @@ body {
 .catalog-section__country-btn:hover {
   color: #F4F6F5;
   background-color: #376B44;
+}
+.catalog-section__main-part {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
 }
 .catalog-section__cards {
   background-color: #E1EDE6;
