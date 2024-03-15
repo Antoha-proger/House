@@ -6,332 +6,386 @@
     <link rel="stylesheet" href="css\style.css">
     <title>Ink. House</title>
 </head>
-<body>
-    <!-- Первая секция -->
-    <section class="main-section">
-        <!-- Логотип и меню -->
-        <header class="main-section__header">
-            <!-- Контейнер -->
-            <div class="container main-section__nav-container">
-                <!-- Логотип -->
-                <div class="main-section__logo logo">
-                    <img src="icons\Star-logo.svg" alt="">
-                    <p>Ink. House</p>
+    <body>
+        <!-- Первая секция -->
+        <section class="main-section">
+            <!-- Логотип и меню -->
+            <header class="main-section__header">
+                <!-- Контейнер -->
+                <div class="container main-section__nav-container">
+                    <!-- Логотип -->
+                    <div class="main-section__logo logo">
+                        <img src="icons\Star-logo.svg" alt="">
+                        <p>Ink. House</p>
+                    </div>
+                    <!-- Меню -->
+                    <nav class="main-section__nav nav-menu">
+                        <ul class="nav-menu__list">
+                            <li class="nav-menu__list-item">
+                                <a href="#">Репродукции</a>
+                            </li>
+                            <li class="nav-menu__list-item">
+                                <a href="#">Новинки</a>
+                            </li>
+                            <li class="nav-menu__list-item">
+                                <a href="#">О нас</a>
+                            </li>
+                            <li class="nav-menu__list-item">
+                                <a href="#"><img src="icons\shop-icon.svg" alt=""></a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <!-- Меню -->
-                <nav class="main-section__nav nav-menu">
-                    <ul class="nav-menu__list">
-                        <li class="nav-menu__list-item">
-                            <a href="#">Репродукции</a>
-                        </li>
-                        <li class="nav-menu__list-item">
-                            <a href="#">Новинки</a>
-                        </li>
-                        <li class="nav-menu__list-item">
-                            <a href="#">О нас</a>
-                        </li>
-                        <li class="nav-menu__list-item">
-                            <a href="#"><img src="icons\shop-icon.svg" alt=""></a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!-- Основная часть -->
-        <div class="container main-section__major-part">
-            <!-- Картинка птицы -->
-            <div class="main-section__left-part">
-                <img src="img\bird.png" alt="">
-            </div>
-            <!-- Текст основной части -->
-            <div class="main_section__right-part">
-                <!-- Заголовок -->
-                <h1 class="main-section__title main-title">Реплики картин <br> от <span>Ink. House</span></h1>
-                <!-- Текст -->
-                <p class="main-section__text text">Высокое качество отрисовки на плотной бумаге или льняном <br> холсте. Редкие произведения, доступные цены.</p>
-                <!-- Кнопка -->
-                <button class="main-section__button button">Продукция</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Вторая секция -->
-    <section class="catalog-section">
-        <!-- Контейнер -->
-        <div class="container catalog-section__content-section">
-            <!-- Верхнее меню -->
-            <div class="catalog-section__top-part">
-                <!-- Заголовок -->
-                <h2 class="catalog-section__title title">Репродукции</h2>
-                <!-- Кнопки -->
-                <div class="catalog-section__button-box">
-                    <button class="catalog-section__country-btn">Франция</button>
-                    <button class="catalog-section__country-btn">Германия</button>
-                    <button class="catalog-section__country-btn">Англия</button>
-                </div>
-            </div>
+            </header>
             <!-- Основная часть -->
-            <div class="catalog-section__main-part">
-                <!-- Первая картичка -->
-                <div class="catalog-section__cards first-card">
-                    <!-- Контейнер карточки -->
-                    <div class="catalog-section__card-container card-container">
-                        <!-- Контейнер изображения -->
-                        <div class="catalog-section__card-img-container">
-                            <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Охота-амура.jpg" alt="">
-                        </div>
-                        <!-- Контейнер с информацией -->
-                        <div class="catalog-section__card-info card-info">
-                            <!-- Автор картины -->
-                            <p class="catalog-section__card-author card-author">
-                                Марсель Руссо
-                            </p>
-                            <!-- Название картины -->
-                            <h3 class="catalog-section__card-name card-name">
-                                Охота Амура
-                            </h3>
-                            <!-- Описание картины -->
-                            <p class="catalog-section__card-description card-description">
-                                Холст, масло (50х80) 
-                            </p>
-                        </div>
-                        <!-- Контейнер стоимости -->
-                        <div class="catalog-section__card-buy card-buy">
-                            <!-- Стоимость картины -->
-                            <p class="catalog-section__card-price card-price">
-                                14 500 руб
-                            </p>
-                            <!-- Кнопка карточки -->
-                            <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
-                        </div>
-                    </div>
+            <div class="container main-section__major-part">
+                <!-- Картинка птицы -->
+                <div class="main-section__left-part">
+                    <img src="img\bird.png" alt="">
                 </div>
-
-                <!-- Вторая карточка -->
-                <div class="catalog-section__cards second-card">
-                    <!-- Контейнер карточки -->
-                    <div class="catalog-section__card-container card-container">
-                        <!-- Контейнер изображения -->
-                        <div class="catalog-section__card-img-container">
-                            <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Дама-с-собачкой.jpg" alt="">
-                        </div>
-                        <!-- Контейнер с информацией -->
-                        <div class="catalog-section__card-info card-info">
-                            <!-- Автор картины -->
-                            <p class="catalog-section__card-author card-author">
-                                Анри Селин
-                            </p>
-                            <!-- Название картины -->
-                            <h3 class="catalog-section__card-name card-name">
-                                Дама с собачкой
-                            </h3>
-                            <!-- Описание картины -->
-                            <p class="catalog-section__card-description card-description">
-                                Акрил, бумага (50х80)  
-                            </p>
-                        </div>
-                        <!-- Контейнер стоимости -->
-                        <div class="catalog-section__card-buy card-buy">
-                            <!-- Стоимость картины -->
-                            <p class="catalog-section__card-price card-price">
-                                16 500 руб
-                            </p>
-                            <!-- Кнопка карточки -->
-                            <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
-                        </div>
-                    </div>
+                <!-- Текст основной части -->
+                <div class="main_section__right-part">
+                    <!-- Заголовок -->
+                    <h1 class="main-section__title main-title">Реплики картин <br> от <span>Ink. House</span></h1>
+                    <!-- Текст -->
+                    <p class="main-section__text text">Высокое качество отрисовки на плотной бумаге или льняном <br> холсте. Редкие произведения, доступные цены.</p>
+                    <!-- Кнопка -->
+                    <button class="main-section__button button">Продукция</button>
                 </div>
-
-                <!-- Третья карточка -->
-                <div class="catalog-section__cards third-card">
-                    <!-- Контейнер карточки -->
-                    <div class="catalog-section__card-container card-container">
-                        <!-- Контейнер изображения -->
-                        <div class="catalog-section__card-img-container">
-                            <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Процедура.jpg" alt="">
-                        </div>
-                        <!-- Контейнер с информацией -->
-                        <div class="catalog-section__card-info card-info">
-                            <!-- Автор картины -->
-                            <p class="catalog-section__card-author card-author">
-                                Франсуа Дюпон
-                            </p>
-                            <!-- Название картины -->
-                            <h3 class="catalog-section__card-name card-name">
-                                Процедура
-                            </h3>
-                            <!-- Описание картины -->
-                            <p class="catalog-section__card-description card-description">
-                                Цветная литография (40х60)  
-                            </p>
-                        </div>
-                        <!-- Контейнер стоимости -->
-                        <div class="catalog-section__card-buy card-buy">
-                            <!-- Стоимость картины -->
-                            <p class="catalog-section__card-price card-price">
-                                20 000 руб
-                            </p>
-                            <!-- Кнопка карточки -->
-                            <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Четвертая карточка -->
-                <div class="catalog-section__cards fourth-card">
-                    <!-- Контейнер карточки -->
-                    <div class="catalog-section__card-container card-container">
-                        <!-- Контейнер изображения -->
-                        <div class="catalog-section__card-img-container">
-                            <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Роза.jpg" alt="">
-                        </div>
-                        <!-- Контейнер с информацией -->
-                        <div class="catalog-section__card-info card-info">
-                            <!-- Автор картины -->
-                            <p class="catalog-section__card-author card-author">
-                                Луи Детуш
-                            </p>
-                            <!-- Название картины -->
-                            <h3 class="catalog-section__card-name card-name">
-                                Роза
-                            </h3>
-                            <!-- Описание картины -->
-                            <p class="catalog-section__card-description card-description">
-                                Бумага, акрил (50х80)  
-                            </p>
-                        </div>
-                        <!-- Контейнер стоимости -->
-                        <div class="catalog-section__card-buy card-buy">
-                            <!-- Стоимость картины -->
-                            <p class="catalog-section__card-price card-price">
-                                12 000 руб
-                            </p>
-                            <!-- Кнопка карточки -->
-                            <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Пятая карточка -->
-                <div class="catalog-section__cards fifth-card">
-                    <!-- Контейнер карточки -->
-                    <div class="catalog-section__card-container card-container">
-                        <!-- Контейнер изображения -->
-                        <div class="catalog-section__card-img-container">
-                            <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Птичья-трапеза.jpg" alt="">
-                        </div>
-                        <!-- Контейнер с информацией -->
-                        <div class="catalog-section__card-info card-info">
-                            <!-- Автор картины -->
-                            <p class="catalog-section__card-author card-author">
-                                Франсуа Дюпон
-                            </p>
-                            <!-- Название картины -->
-                            <h3 class="catalog-section__card-name card-name">
-                                Птичья трапеза
-                            </h3>
-                            <!-- Описание картины -->
-                            <p class="catalog-section__card-description card-description">
-                                Цветная литография (40х60)  
-                            </p>
-                        </div>
-                        <!-- Контейнер стоимости -->
-                        <div class="catalog-section__card-buy card-buy">
-                            <!-- Стоимость картины -->
-                            <p class="catalog-section__card-price card-price">
-                                22 500 руб
-                            </p>
-                            <!-- Кнопка карточки -->
-                            <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Шестая карточка -->
-                <div class="catalog-section__cards sixth-card">
-                    <!-- Контейнер карточки -->
-                    <div class="catalog-section__card-container card-container">
-                        <!-- Контейнер изображения -->
-                        <div class="catalog-section__card-img-container">
-                            <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Пейзаж-с-рыбой.jpg" alt="">
-                        </div>
-                        <!-- Контейнер с информацией -->
-                        <div class="catalog-section__card-info card-info">
-                            <!-- Автор картины -->
-                            <p class="catalog-section__card-author card-author">
-                                Пьер Моранж
-                            </p>
-                            <!-- Название картины -->
-                            <h3 class="catalog-section__card-name card-name">
-                                Пейзаж с рыбой
-                            </h3>
-                            <!-- Описание картины -->
-                            <p class="catalog-section__card-description card-description">
-                                Цветная литография (40х60)  
-                            </p>
-                        </div>
-                        <!-- Контейнер стоимости -->
-                        <div class="catalog-section__card-buy card-buy">
-                            <!-- Стоимость картины -->
-                            <p class="catalog-section__card-price card-price">
-                                20 000 руб
-                            </p>
-                            <!-- Кнопка карточки -->
-                            <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Третья секция -->
-    <section class="promo-section">
-        <!-- Кнотейнер основной части -->
-        <div class="container promo-section__content-section">
-            <!-- Главная часть -->
-            <div class="promo-section__main-part">
-                <!-- Контейнер заголовка -->
-                <div class="promo-section__head-container">
-                    <img src="icons/Star 2.svg" alt="">
-                    <h3 class="promo-section__title title">
-                        Новая коллекция <br> французских авторов
-                    </h3>
+        <!-- Вторая секция -->
+        <section class="catalog-section">
+            <!-- Контейнер -->
+            <div class="container catalog-section__content-section">
+                <!-- Верхнее меню -->
+                <div class="catalog-section__top-part">
+                    <!-- Заголовок -->
+                    <h2 class="catalog-section__title title">Репродукции</h2>
+                    <!-- Кнопки -->
+                    <div class="catalog-section__button-box">
+                        <button class="catalog-section__country-btn">Франция</button>
+                        <button class="catalog-section__country-btn">Германия</button>
+                        <button class="catalog-section__country-btn">Англия</button>
+                    </div>
                 </div>
-                <!-- Текст секции -->
-                <p class="promo-section__text text">
-                    Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений. <br> <br>
-                    Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.
-                </p>
-                <!-- Кнопка секции -->
-                <button class="promo-section__btn button">Ознакомиться</button>
-            </div>
-        </div>
-    </section>
+                <!-- Основная часть -->
+                <div class="catalog-section__main-part">
+                    <!-- Первая картичка -->
+                    <div class="catalog-section__cards first-card">
+                        <!-- Контейнер карточки -->
+                        <div class="catalog-section__card-container card-container">
+                            <!-- Контейнер изображения -->
+                            <div class="catalog-section__card-img-container">
+                                <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Охота-амура.jpg" alt="">
+                            </div>
+                            <!-- Контейнер с информацией -->
+                            <div class="catalog-section__card-info card-info">
+                                <!-- Автор картины -->
+                                <p class="catalog-section__card-author card-author">
+                                    Марсель Руссо
+                                </p>
+                                <!-- Название картины -->
+                                <h3 class="catalog-section__card-name card-name">
+                                    Охота Амура
+                                </h3>
+                                <!-- Описание картины -->
+                                <p class="catalog-section__card-description card-description">
+                                    Холст, масло (50х80) 
+                                </p>
+                            </div>
+                            <!-- Контейнер стоимости -->
+                            <div class="catalog-section__card-buy card-buy">
+                                <!-- Стоимость картины -->
+                                <p class="catalog-section__card-price card-price">
+                                    14 500 руб
+                                </p>
+                                <!-- Кнопка карточки -->
+                                <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
 
-    <!-- Четвертая секция -->
-    <section class="team-section">
-        <!-- Контейнер секции -->
-        <div class="container team-section__content-container">
-            <!-- Контейнер для левого блока -->
-            <div class="team-section__left-part">
-                <img class="team-section__frame-img" src="img/frame.png" alt="">
-                <img class="team-section__brushes-img" src="img/brushes.png" alt="">
-            </div>
-            <!-- Контейнер для правого блока -->
-            <div class="team-section__right-part">
-                <h3 class="team-section__title title">Наша команда</h3>
-                <p class="team-section__text text">Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.</p>
-                <ul class="team-section__photo-list">
-                    <li class="team-section__list-item"><img src="img/person1.svg" alt=""></li>
-                    <li class="team-section__list-item"><img src="img/person2.svg" alt=""></li>
-                    <li class="team-section__list-item"><img src="img/person3.svg" alt=""></li>
-                </ul>
-            </div>
-        </div>
+                    <!-- Вторая карточка -->
+                    <div class="catalog-section__cards second-card">
+                        <!-- Контейнер карточки -->
+                        <div class="catalog-section__card-container card-container">
+                            <!-- Контейнер изображения -->
+                            <div class="catalog-section__card-img-container">
+                                <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Дама-с-собачкой.jpg" alt="">
+                            </div>
+                            <!-- Контейнер с информацией -->
+                            <div class="catalog-section__card-info card-info">
+                                <!-- Автор картины -->
+                                <p class="catalog-section__card-author card-author">
+                                    Анри Селин
+                                </p>
+                                <!-- Название картины -->
+                                <h3 class="catalog-section__card-name card-name">
+                                    Дама с собачкой
+                                </h3>
+                                <!-- Описание картины -->
+                                <p class="catalog-section__card-description card-description">
+                                    Акрил, бумага (50х80)  
+                                </p>
+                            </div>
+                            <!-- Контейнер стоимости -->
+                            <div class="catalog-section__card-buy card-buy">
+                                <!-- Стоимость картины -->
+                                <p class="catalog-section__card-price card-price">
+                                    16 500 руб
+                                </p>
+                                <!-- Кнопка карточки -->
+                                <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
 
-    </section>
+                    <!-- Третья карточка -->
+                    <div class="catalog-section__cards third-card">
+                        <!-- Контейнер карточки -->
+                        <div class="catalog-section__card-container card-container">
+                            <!-- Контейнер изображения -->
+                            <div class="catalog-section__card-img-container">
+                                <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Процедура.jpg" alt="">
+                            </div>
+                            <!-- Контейнер с информацией -->
+                            <div class="catalog-section__card-info card-info">
+                                <!-- Автор картины -->
+                                <p class="catalog-section__card-author card-author">
+                                    Франсуа Дюпон
+                                </p>
+                                <!-- Название картины -->
+                                <h3 class="catalog-section__card-name card-name">
+                                    Процедура
+                                </h3>
+                                <!-- Описание картины -->
+                                <p class="catalog-section__card-description card-description">
+                                    Цветная литография (40х60)  
+                                </p>
+                            </div>
+                            <!-- Контейнер стоимости -->
+                            <div class="catalog-section__card-buy card-buy">
+                                <!-- Стоимость картины -->
+                                <p class="catalog-section__card-price card-price">
+                                    20 000 руб
+                                </p>
+                                <!-- Кнопка карточки -->
+                                <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
 
-</body>
+                    <!-- Четвертая карточка -->
+                    <div class="catalog-section__cards fourth-card">
+                        <!-- Контейнер карточки -->
+                        <div class="catalog-section__card-container card-container">
+                            <!-- Контейнер изображения -->
+                            <div class="catalog-section__card-img-container">
+                                <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Роза.jpg" alt="">
+                            </div>
+                            <!-- Контейнер с информацией -->
+                            <div class="catalog-section__card-info card-info">
+                                <!-- Автор картины -->
+                                <p class="catalog-section__card-author card-author">
+                                    Луи Детуш
+                                </p>
+                                <!-- Название картины -->
+                                <h3 class="catalog-section__card-name card-name">
+                                    Роза
+                                </h3>
+                                <!-- Описание картины -->
+                                <p class="catalog-section__card-description card-description">
+                                    Бумага, акрил (50х80)  
+                                </p>
+                            </div>
+                            <!-- Контейнер стоимости -->
+                            <div class="catalog-section__card-buy card-buy">
+                                <!-- Стоимость картины -->
+                                <p class="catalog-section__card-price card-price">
+                                    12 000 руб
+                                </p>
+                                <!-- Кнопка карточки -->
+                                <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Пятая карточка -->
+                    <div class="catalog-section__cards fifth-card">
+                        <!-- Контейнер карточки -->
+                        <div class="catalog-section__card-container card-container">
+                            <!-- Контейнер изображения -->
+                            <div class="catalog-section__card-img-container">
+                                <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Птичья-трапеза.jpg" alt="">
+                            </div>
+                            <!-- Контейнер с информацией -->
+                            <div class="catalog-section__card-info card-info">
+                                <!-- Автор картины -->
+                                <p class="catalog-section__card-author card-author">
+                                    Франсуа Дюпон
+                                </p>
+                                <!-- Название картины -->
+                                <h3 class="catalog-section__card-name card-name">
+                                    Птичья трапеза
+                                </h3>
+                                <!-- Описание картины -->
+                                <p class="catalog-section__card-description card-description">
+                                    Цветная литография (40х60)  
+                                </p>
+                            </div>
+                            <!-- Контейнер стоимости -->
+                            <div class="catalog-section__card-buy card-buy">
+                                <!-- Стоимость картины -->
+                                <p class="catalog-section__card-price card-price">
+                                    22 500 руб
+                                </p>
+                                <!-- Кнопка карточки -->
+                                <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Шестая карточка -->
+                    <div class="catalog-section__cards sixth-card">
+                        <!-- Контейнер карточки -->
+                        <div class="catalog-section__card-container card-container">
+                            <!-- Контейнер изображения -->
+                            <div class="catalog-section__card-img-container">
+                                <img class="catalog-section__card-img card-img" src="img\cards\french-cards\Пейзаж-с-рыбой.jpg" alt="">
+                            </div>
+                            <!-- Контейнер с информацией -->
+                            <div class="catalog-section__card-info card-info">
+                                <!-- Автор картины -->
+                                <p class="catalog-section__card-author card-author">
+                                    Пьер Моранж
+                                </p>
+                                <!-- Название картины -->
+                                <h3 class="catalog-section__card-name card-name">
+                                    Пейзаж с рыбой
+                                </h3>
+                                <!-- Описание картины -->
+                                <p class="catalog-section__card-description card-description">
+                                    Цветная литография (40х60)  
+                                </p>
+                            </div>
+                            <!-- Контейнер стоимости -->
+                            <div class="catalog-section__card-buy card-buy">
+                                <!-- Стоимость картины -->
+                                <p class="catalog-section__card-price card-price">
+                                    20 000 руб
+                                </p>
+                                <!-- Кнопка карточки -->
+                                <button class="catalog-section__card-basket-btn card-basket-btn">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Третья секция -->
+        <section class="promo-section">
+            <!-- Кнотейнер основной части -->
+            <div class="container promo-section__content-section">
+                <!-- Главная часть -->
+                <div class="promo-section__main-part">
+                    <!-- Контейнер заголовка -->
+                    <div class="promo-section__head-container">
+                        <img src="icons/Star 2.svg" alt="">
+                        <h3 class="promo-section__title title">
+                            Новая коллекция <br> французских авторов
+                        </h3>
+                    </div>
+                    <!-- Текст секции -->
+                    <p class="promo-section__text text">
+                        Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений. <br> <br>
+                        Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.
+                    </p>
+                    <!-- Кнопка секции -->
+                    <button class="promo-section__btn button">Ознакомиться</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Четвертая секция -->
+        <section class="team-section">
+            <!-- Контейнер секции -->
+            <div class="container team-section__content-container">
+                <!-- Контейнер для левого блока -->
+                <div class="team-section__left-part">
+                    <img class="team-section__frame-img" src="img/frame.png" alt="">
+                    <img class="team-section__brushes-img" src="img/brushes.png" alt="">
+                </div>
+                <!-- Контейнер для правого блока -->
+                <div class="team-section__right-part">
+                    <!-- Заголовок секции -->
+                    <h3 class="team-section__title title">Наша команда</h3>
+                    <!-- Текст секции -->
+                    <p class="team-section__text text">Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.</p>
+                    <!-- Фото команды -->
+                    <ul class="team-section__photo-list">
+                        <li class="team-section__list-item"><img src="img/person1.svg" alt=""></li>
+                        <li class="team-section__list-item"><img src="img/person2.svg" alt=""></li>
+                        <li class="team-section__list-item"><img src="img/person3.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Пятая секция -->
+        <section class="footer-section">
+            <!-- Контейнер секции -->
+            <div class="container footer-section__container">
+                <!-- Левая часть -->
+                <div class="footer-section__left-part">
+                    <div class="footer-section__logo logo">
+                        <img src="icons\Star-logo.svg" alt="">
+                        <p>Ink. House</p>
+                    </div>
+                    <div class="footer-section__tel-block">
+                        <p class="footer-section__telephone">+7 (999) 543-54-54</p>
+                        <p class="footer-section__text text">Мастерская</p>
+                    </div>
+                </div>
+                <!-- Центральная часть -->
+                <div class="footer-section__central-part">
+                    <!-- Список Репродукций -->
+                    <ul class="footer-section__repr-list list">
+                        <li class="footer-section__list-item list-title list-item">Репродукции</li>
+                        <li class="footer-section__list-item list-item"><a class="footer-container__list-link list-link" href="">Франция</a></li>
+                        <li class="footer-section__list-item list-item"><a class="footer-container__list-link list-link" href="">Германия</a></li>
+                        <li class="footer-section__list-item list-item"><a class="footer-container__list-link list-link" href="">Англия</a></li>
+                    </ul>
+                    <!-- Список новинок -->
+                    <ul class="footer-section__new-list list">
+                        <li class="footer-section__list-item list-title">Новинки</li>
+                        <li class="footer-section__list-item list-item"><a class="footer-container__list-link list-link"href="">2021</a></li>
+                        <li class="footer-section__list-item list-item"><a class="footer-container__list-link list-link"href="">2020</a></li>
+                    </ul>
+                    <!-- Список "О нас" -->
+                    <ul class="footer-section__about-list list">
+                        <li class="footer-section__list-item list-title">О нас</li>
+                        <li class="footer-section__list-item list-item"><a class="footer-container__list-link list-link"href="">Художники</a></li>
+                        <li class="footer-section__list-item list-item"><a class="footer-container__list-link list-link"href="">Менеджеры</a></li>
+                    </ul>
+                </div>
+                <!-- Правая часть -->
+                <div class="footer-section__right-part">
+                    <ul class="footer-section__social-media list">
+                        <li><img src="icons/facebook-icon.svg" alt=""></li>
+                        <li><img src="icons/instagram-icon.svg" alt=""></li>
+                        <li><img src="icons/youtube-icon.svg" alt=""></li>
+                    </ul>
+                    <p class="footer-section__top-text footer-text">Ink. House ®</p>
+                    <p class="footer-secton__bottom-text footer-text">All rights reserved</p>
+                </div>
+
+            </div>
+        </section>
+
+    </body>
 </html>

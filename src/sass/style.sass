@@ -30,15 +30,6 @@ body
         flex-direction: row
         justify-content: space-between
         align-items: center
-        .logo
-            display: inline-flex
-            align-items: center
-            img
-                margin-right: 8px
-            p
-                font-size: 20px
-                font-weight: bold
-                color: #598D66
     &__major-part
         display: flex
         flex-direction: row
@@ -46,6 +37,16 @@ body
         align-items: center
     &__left-part
         margin-right: 30px
+
+.logo
+    display: inline-flex
+    align-items: center
+    img
+        margin-right: 8px
+    p
+        font-size: 20px
+        font-weight: bold
+        color: #598D66
 
 .nav-menu
     &__list
@@ -191,6 +192,7 @@ body
         border: none
 
 .team-section    
+    min-height: 440px
     &__left-part
         position: relative
         margin-right: 30px
@@ -207,8 +209,53 @@ body
         background-color: #F4F6F5
     &__list-item
         margin-right: 30px
+        &:last-child
+            margin-right: 0
     &__title
         margin-bottom: 20px
     &__text
         color: #2C2D35
         margin-bottom: 20px
+
+.footer-section
+    min-height: 168px
+    background-color: #D4E8D9
+    padding-top: 23px
+    &__container
+        display: flex
+        justify-content: space-between
+        margin-bottom: 0
+    &__logo
+        margin-bottom: 35px
+    &__telephone
+        margin-bottom: 8px
+    &__central-part
+        display: flex
+        // justify-content: center
+        column-gap: 60px
+    &__social-media
+        display: inline-flex
+        column-gap: 30px
+        margin-bottom: 10px
+    &__top-text
+        margin-bottom: 6px
+
+.list
+    list-style-type: none
+.list-item
+    margin-bottom: 8px
+    &:last-child
+        margin-bottom: 0
+        
+.list-title
+    color: #2C2D35
+    font-size: 20px
+    font-weight: 500
+
+.list-link
+    text-decoration: none
+    color: #86928B
+
+.footer-text
+    color: #86928B
+    font-size: 12px
