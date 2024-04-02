@@ -464,3 +464,121 @@ body
 @media (max-width: 575px)
     .container
         width: 100%
+    .nav-menu
+        display: none
+        position: absolute
+        top: 65px
+        left: 0
+        height: 300px
+        width: 100%
+        background-color: #D4E8D9
+        &__list-item
+            margin-bottom: 30px
+        &__list 
+            flex-direction: column
+            align-items: flex-start
+            height: 300px
+            padding-left: 15px
+            justify-content: flex-end
+    .hamburger
+        width: 30px
+        height: 14px
+        position: absolute
+        top: 84px
+        left: 15px
+        z-index: 10
+        span
+            height: 2px
+            width: 100%
+            display: block
+            background: black
+            margin-bottom: 4px
+            transition: 1s all
+            &:last-child
+                margin-bottom: 0
+        &_active
+
+            span
+                transition: 1s all
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .nav-menu_active
+        display: block
+
+    .main-section
+        min-height: 423px
+        &__left-part
+            display: none
+        &__header
+            background-color: #F4F6F5
+        &__logo::before
+            content: none
+
+    .catalog-section
+        &__main-part
+            grid-template-columns: repeat(1, 1fr)
+            // justify-items: center
+            // grid-template-rows: repeat(3, 1fr)
+        // &__top-part
+        //     overflow: auto
+        &__cards
+            width: 290px
+            height: 514px
+        &__card-container
+            width: 250px
+        &__button-box
+            display: flex
+            overflow: auto
+    .card-img
+        width: 250px
+        height: 250px
+        margin-bottom: 15px
+    .card-basket-btn
+        width: 250px
+        height: 50px
+
+    .promo-section
+        button
+            width: 290px
+    .team-section
+        &__content-container
+            width: 290px
+        &__brushes-img
+            width: 175px
+            top: -90px
+            left: 25px
+        &__frame-img
+            width: 234px
+        &__list-item 
+            margin-right: 20px
+
+    .footer-section
+        &__central-part::before
+            width: 100%
+        &__central-part
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            grid-template-rows: repeat(2, 1fr)
+            row-gap: 20px
+        &__left-part
+            flex-direction: column
+        &__repr-list
+            grid-column: span 2
+            justify-self: end
+            margin-right: 15px
+            
+
+    .main-title 
+        font-size: 30px
+        margin-bottom: 20px
+    .main-section__text 
+        font-size: 14px
+        margin-bottom: 40px
+    .button 
+        width: 154px
+        margin-bottom: 60px
